@@ -26,15 +26,7 @@
     "react-masonry-component": "^6.0.2",
     "react-responsive-grid": "^0.3.4",
     "react-sticky": "^6.0.1",
-    "typography-theme-fairy-gates": "^0.15.11",
-    "typography-theme-judah": "^0.15.10",
-    "typography-theme-lawton": "^0.15.10",
-    "typography-theme-lincoln": "^0.15.11",
-    "typography-theme-noriega": "^0.15.10",
-    "typography-theme-ocean-beach": "^0.15.11",
-    "typography-theme-stern-grove": "^0.15.10",
-    "typography-theme-sutro": "^0.15.10",
-    "typography-theme-twin-peaks": "^0.15.11"
+    "typography-theme-lincoln": "^0.15.11"
   },
   "devDependencies": {
     "eslint": "^4.15.0",
