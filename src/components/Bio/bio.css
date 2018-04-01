@@ -1,0 +1,58 @@
+
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  background-color: #17191b;
+  text-align: center;
+  padding: 40px;
+}
+
+@media (min-width : 750px) {
+  .bio-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 275px;
+  }
+}
+
+.bio-project-link {
+  display: block;
+  background-image: none;
+  text-shadow: none;
+  color: #aaa;
+  padding: 2px;
+  
+  &:hover,
+  &:focus,
+  &.active {
+    color: white;
+  }
+}
+
+.bio-divider {
+  margin: 10px;
+  height: 1px;
+  background-color: #222;
+}
+
+.social-media-container {
+  padding-top: 30px;
+  text-align: center;
+  
+  & a {
+    margin: 0 10px;
+    color: #aaa;
+    background-image: none;
+    transition: all 0.15s;
+
+    &:hover,
+    &:focus {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}

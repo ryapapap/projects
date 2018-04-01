@@ -1,0 +1,16 @@
+---
+title: Blog
+tags: [ side-project, code, web ]
+date: '2017-05-20'
+---
+I’ve often wanted a place where I could put all sorts of content on the web. Probably the biggest reason for this is that it gives me an easy way to share things that I’ve made. But another reason is that it helps me reflect on these projects. Writing these articles has helped me understand a lot of my motivations for starting and stopping a project. I think being able to see this over time will be very rewarding. I’m going to try and focus my efforts on the things I find most interesting.
+
+This is not the first time I’ve played around with this idea. For whatever reason (ok, it’s the engineer in me), I’ve never felt comfortable with the idea of using one of the popular blog CMS systems. This means I just keep rolling my own solution. This site is my latest iteration on this idea.
+
+Before I made this site, I had made a similar site [you can see here](http://react-blog.s3-website-us-west-2.amazonaws.com/). That site is statically hosted in an AWS S3 bucket and made all of its updates through an AWS Lambda function which would update JSON files (one that indexes the articles and another with the article content). I put the majority of the code for this [in a gist](https://gist.github.com/ryapapap/087bafbe3801bc9f04b85f6cf7abb9e2). I would make edits and new articles through a hidden url at the same site. [That looks like this](http://react-blog.s3-website-us-west-2.amazonaws.com/writer). This editor is implemented with Draft.JS and has a good number of extensions, like the ability to add images and videos. I wanted to make a way to make the articles interactive, but never really found a good way.
+
+I felt like it was going to be too difficult to share different types of content on that site— It really feels like it only works for articles. When I learned about Gatsby, it sounded like a good tool for building another iteration on this idea. Particularly, I was interested in being able to mix and match react and markdown pages. This site, the one you are reading on, is the result of me playing around with Gatsby. It is a little harder to add a new article, but I think it’s worth it for the added control I have (articles are managed in git and Gatsby comes with a lot of useful tools and ways to customize).
+
+I’m happy with the functionality on the site, but not its design and overall feel. What I’ve found is that trying to make improvements in these areas is difficult and time consuming. I believe I can make it better, but I also think that I need to consider what I find important and valuable. I think I will gain more by focusing on the projects that go on this site rather than the site itself now. Hopefully doing that will help me pick up the skills needed to make this site better in the future. Until then, I think I can accept the current state of this site.
+
+I’ve heard it said that if you don’t ship when you’re embarrassed, you’ve waited too long. That’s the model I’m following here.
