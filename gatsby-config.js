@@ -40,7 +40,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        //trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: "UA-113716157-2",
+        anonymize: true,
       },
     },
     `gatsby-plugin-feed`,
@@ -53,13 +54,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-lodash`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "UA-113716157-2",
-        anonymize: true,
-      },
-    },
     {
       resolve: `gatsby-plugin-favicon`,
       options: {
