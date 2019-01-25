@@ -4,6 +4,7 @@ import theme from 'typography-theme-lincoln'
 theme.overrideThemeStyles = () => ({
   'a.gatsby-resp-image-link': {
     boxShadow: 'none',
+    backgroundImage: 'none',
   },
 })
 
