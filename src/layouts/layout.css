@@ -3,3 +3,9 @@
     margin-left: 275px;
   }
 }
+
+.new-layout-container {
+  padding: 25px 15px;
+  margin: auto;
+  max-width: 1000px;
+}

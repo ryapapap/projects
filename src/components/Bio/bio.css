@@ -51,7 +51,7 @@
 
     &:hover,
     &:focus {
-      color: white;
+      color: #222;
       text-decoration: none;
     }
   }

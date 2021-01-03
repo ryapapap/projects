@@ -7,8 +7,7 @@ class Template extends React.Component {
     const { children } = this.props
     return (
       <div>
-        <Bio />
-        <div className="layout-container">
+        <div className="new-layout-container">
           {children()}
         </div>
       </div>);

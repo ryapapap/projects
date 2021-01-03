@@ -9,7 +9,7 @@ import EmailIcon from 'react-icons/lib/fa/envelope';
 import { rhythm } from '../../utils/typography'
 import './bio.css'
 
-function SocialLinks() {
+export function SocialLinks() {
   const size = 20;
   return (<div className="social-media-container">
     <a href="https://twitter.com/ryapapap"><TwitterIcon size={size} /></a>
