@@ -46,7 +46,7 @@ class Bio extends React.Component {
               fontSize: 16,
             }}
           >
-            aspiring creative
+            creative
           </span>
         </Link>
         <SocialLinks />
